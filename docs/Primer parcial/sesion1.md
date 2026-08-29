@@ -5,3 +5,4 @@ Yo soy Carlos Eduardo Martinez Perea soy del estado de Morelos actualmente me en
 Mis pasatiempos favoritos es ver peliculas asi como tambien ver y jugar futbol, pero mi pasatiempo preferido es ir al GYM.
 
 ![Diagrama del sistema](../recursos/imgs/ibero.jpeg)
+![Imagen Carlos](../recursos/imgs/Image.jpg)
