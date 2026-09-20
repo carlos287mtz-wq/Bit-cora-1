@@ -5,8 +5,8 @@ Yo soy Carlos Eduardo Martínez Perea, soy del estado de Morelos y actualmente m
 Entre mis pasatiempos favoritos está ver películas, así como ver y jugar fútbol, pero mi pasatiempo preferido es ir al GYM, ya que es algo que disfruto hacer y que forma parte de mi rutina.
 
 ---
-<img src="../recursos/imgs/Image.jpg" width="180">
-<img src="../recursos/imgs/ibero.jpeg" width="220">
+<img src="../../recursos/imgs/Image.jpg" width="180">
+<img src="../../recursos/imgs/ibero.jpeg" width="220">
 
 ---
 
