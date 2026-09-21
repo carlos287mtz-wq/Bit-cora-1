@@ -1,8 +1,7 @@
 
 ---
-En la clase de hoy vimos cómo funciona un motor L298. Primero, la profesora nos explicó su funcionamiento utilizando un motor físico y una fuente de poder. Observamos que, al conectar el motor a la fuente de una manera, este comienza a girar en un sentido, y al conectarlo al revés, gira en el sentido contrario.
-
-Después de esto, realizamos un circuito en Tinkercad utilizando una placa Arduino. En este circuito programamos dos motores para que giraran en la misma dirección. Con esta práctica pudimos observar de manera más clara cómo se puede controlar el movimiento de los motores mediante Arduino.
+En la clase de hoy vimos cómo funciona un motor L298. Primero, el profesor nos explicó su funcionamiento utilizando un motor físico y una fuente de poder. Observamos que, al conectar el motor de una manera, este comenzaba a girar en un sentido y, al invertir las conexiones, giraba en el sentido contrario.
+Después de esto, realizamos un circuito en Tinkercad utilizando una placa Arduino. En este circuito programamos dos motores para que giraran en la misma dirección. Con esta práctica pudimos observar de una manera más clara cómo se puede controlar el movimiento de los motores mediante Arduino y cómo la programación influye en su funcionamiento.
 ```cpp
 void setup()
 {
