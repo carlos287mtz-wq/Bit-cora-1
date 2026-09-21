@@ -2,7 +2,7 @@ MECANISMOS
 ---
 Primero, en la clase de hoy Oliver comenzó preguntándonos si conocíamos algún mecanismo. Después de que le mencionamos algunos ejemplos, comenzó a explicarnos cómo funcionan y vimos algunos ejemplos para entenderlos mejor. También realizamos algunos cálculos utilizando la siguiente fórmula:
 ![Imagen Carlos](../../recursos/imgs/AAA.png)
-![Imagen Carlos](../../recursos/imgS/WhatsApp%20Image%202026-09-20%20at%208.56.04%20PM.jpeg)
+![Imagen Carlos](../../recursos/imgs/WhatsApp%20Image%202026-09-20%20at%208.56.04%20PM.jpeg)
 
 ---
 Luego oliover nos pidio hacer una ficha de estacion 
