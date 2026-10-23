@@ -1,0 +1,823 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Proyecto - Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sesion-7" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Proyecto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primer parcial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primer parcial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Actividad1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actividad 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Actividad%202/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actividad 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Actividad%203/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actividad 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Actividad%204/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actividad 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sesion-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sesion 7
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sesion 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-en-bloques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama en bloques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boceto-del-chasis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boceto del chasis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plan-por-semanas-y-criterios-de-exito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plan por semanas y criterios de exito
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-bluetoothserialh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        include "BluetoothSerial.h"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-in1-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define in1 26
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-in2-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define in2 27
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-pwm-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define pwm 14
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-in3-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define in3 25
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-in4-33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define in4 33
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-pwm2-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        define pwm2 32
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h2 id="sesion-7">Sesion 7</h2>
+<p>Objetivo: Diseñar, construir y programar un vehículo funcional, competitivo y robusto de control remoto por Bluetooth, con dimensiones máximas de 10x10 cm, utilizando un microcontrolador ESP32 DevKit V1 clásico, un controlador de motores TB6612 y dos motores TT con caja reductora, optimizado para competir en un torneo de fútbol tipo Rocket League, garantizando agilidad, precisión en el manejo y resistencia ante los impactos propios del juego.</p>
+<p>Requisitos propios:
+1. Dos superficies rectangulares en forma de ganchos en la parte frontal del carro
+2. El chasis del carro será impresa en 3D, priorizando peso ligero.
+3. Pilas AA con portapilas 18650.</p>
+<hr />
+<h3 id="diagrama-en-bloques">Diagrama en bloques</h3>
+<p><img alt="Proyecto" src="recursos/imgs/Diagrama de bloques.png" /></p>
+<h3 id="boceto-del-chasis">Boceto del chasis</h3>
+<p><img alt="Proyecto" src="../../recursos/imgs/Chasis%201.jpeg" /></p>
+<p><img alt="Proyecto" src="../../recursos/imgs/Chasis%202.jpeg" /></p>
+<p>Se planea usar el chasis, pero, no teniamos mucha idea de que es la impresion 3D, pero, en caso de que no podamos imprimirlo, le pedimos ayuda a alguien, ya que no teniamos tanta experiencia por ser estudiantes de primer semestre. </p>
+<hr />
+<h3 id="plan-por-semanas-y-criterios-de-exito">Plan por semanas y criterios de exito</h3>
+<p>Semana 1
+Distribución de tareas: Asignación de roles y responsabilidades específicas para cada integrante del equipo respecto a las etapas del desarrollo.</p>
+<p>Diseño preliminar: Elaboración de los bocetos iniciales y conceptualización del diseño del chasis del vehículo.</p>
+<p>Semana 2
+Adquisición de componentes: Compra y recolección de los materiales necesarios para el sistema electrónico del carrito.</p>
+<p>Definición de control y conectividad: Selección del sistema de control mediante un teléfono inteligente con sistema operativo Android, estableciendo la comunicación inalámbrica por Bluetooth hacia el carrito.</p>
+<p>Investigación y desarrollo: Consulta de documentación en línea sobre la integración de circuitos y protocolos de comunicación inalámbrica.</p>
+<p>Programación: Desarrollo del código fuente para gestionar la conectividad Bluetooth y el control de los movimientos del vehículo.</p>
+<p>Ensamblaje y diseño: Integración inicial de los componentes electrónicos y arranque del modelado del chasis.</p>
+<p>Semana 3
+Fabricación: Impresión 3D del chasis diseñado.</p>
+<p>Integración y pruebas: Montaje de los componentes electrónicos sobre el chasis impreso y ejecución de pruebas de funcionamiento general.</p>
+<p>Validación final: Verificación del correcto desempeño del sistema para dar por concluido el proyecto.</p>
+<hr />
+<p>Sesion 9 
+Durante esta sesión, las actividades se centraron en el montaje y validación del sistema electrónico del proyecto. Comenzamos con la integración física de los componentes en el protoboard, asegurando las conexiones de alimentación y control correspondientes. Una vez concluido el circuito, procedimos con la fase de pruebas preliminares de los actuadores mediante la carga de un código de programación inicial. Esto nos permitió verificar de manera individual la respuesta, el sentido de giro y el correcto funcionamiento de los motores, asegurando que la etapa de hardware y software respondiera de acuerdo con los requerimientos establecidos antes de realizar el acoplamiento con el chasis.</p>
+<p>Bitacora de fallas:
+Al encontrarnos cursando el primer semestre, el dominio de la programación y la sintaxis inicial representó un reto complejo para el desarrollo del código.</p>
+<p>Solución: Se contó con el apoyo de Oliver, quien orientó al equipo para estructurar las bases lógicas y dar inicio al desarrollo del código de control.</p>
+<p>Durante las pruebas del sistema electrónico, se registró un error al suministrar un nivel de voltaje superior al soportado 
+por el dispositivo, lo que provocó que se quemara una placa ESP32.</p>
+<p>Solucion: Se reemplazó el componente afectado y se establecieron mayores precauciones en la revisión de las líneas de alimentación y fuentes de energía antes de realizar futuras conexiones.</p>
+<p><img alt="Proyecto" src="recursos/imgs/Circuito .png" /></p>
+<p>Placa Arduino Uno: Ubicada a la izquierda, actúa como el cerebro del sistema. Gestiona la lógica de control y se comunica mediante cables hacia el circuito integrado. Tiene conectado un cable USB en la parte superior.</p>
+<p>Circuito Integrado L293D (Puente H): Se encuentra montado al centro de la protoboard. Es el controlador encargado de manejar la potencia y el sentido de giro de los motores (permitiendo que vayan hacia adelante o hacia atrás) a partir de las señales de control de baja corriente del Arduino.</p>
+<p>Batería de 9V: Situada en la parte inferior derecha, proporciona la fuente de alimentación externa necesaria para mover los motores con la potencia adecuada sin sobrecargar el Arduino.</p>
+<p>Motores de corriente directa (DC): Los dos pequeños motores con engranajes amarillos ubicados en la esquina inferior izquierda, los cuales se conectan a las salidas del circuito integrado para la tracción del carrito.</p>
+<p>Cableado verde: Todas las conexiones de señal, alimentación y tierra que interconectan los pines digitales/PWM del Arduino con los canales de entrada/salida del L293D, la alimentación de la batería y las terminales de los motores.</p>
+<p><img alt="Proyecto" src="../../recursos/imgs/Electronica.jpeg" /></p>
+<p>El carro ya funcionaba, con los motores y todo, pero el chasis todavia no estaba terminado, eso fue lo ultimo que nos falto.</p>
+<p>Sesion 10</p>
+<p>El codigo
+cpp</p>
+<h1 id="include-bluetoothserialh">include "BluetoothSerial.h"</h1>
+<p>BluetoothSerial IronCar;</p>
+<p>/* MOTOR 1 */</p>
+<h1 id="define-in1-26">define in1 26</h1>
+<h1 id="define-in2-27">define in2 27</h1>
+<h1 id="define-pwm-14">define pwm 14</h1>
+<p>/* MOTOR 2 */</p>
+<h1 id="define-in3-25">define in3 25</h1>
+<h1 id="define-in4-33">define in4 33</h1>
+<h1 id="define-pwm2-32">define pwm2 32</h1>
+<p>int valSpeed = 102;
+char command;</p>
+<p>void SetSpeed(int val) {
+  valSpeed = val;
+  ledcWrite(pwm, valSpeed);
+  ledcWrite(pwm2, valSpeed);
+}</p>
+<p>void parar() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
+}</p>
+<p>void adelante() {
+  SetSpeed(valSpeed);
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+}</p>
+<p>void atras() {
+  SetSpeed(valSpeed);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+}</p>
+<p>void izquierda() {
+  SetSpeed(valSpeed);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+}</p>
+<p>void derecha() {
+  SetSpeed(valSpeed);
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+}</p>
+<p>void setup() {
+  Serial.begin(115200);</p>
+<p>pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);</p>
+<p>ledcAttachChannel(pwm, 1000, 8, 0);
+  ledcAttachChannel(pwm2, 1000, 8, 1);</p>
+<p>parar();</p>
+<p>IronCar.begin("Minitur");</p>
+<p>Serial.println("Minitur ready para Bluetooth");
+}</p>
+<p>void loop() {
+  if (IronCar.available() &gt; 0) {
+    command = IronCar.read();</p>
+<div class="language-text highlight"><pre><span></span><code>if (command == 'F') {
+  adelante();
+}
+else if (command == 'B') {
+  atras();
+}
+else if (command == 'L') {
+  izquierda();
+}
+else if (command == 'R') {
+  derecha();
+}
+else if (command == 'G') {
+  // Adelante izquierda: motor izquierdo más lento
+  ledcWrite(pwm, valSpeed / 4);
+  ledcWrite(pwm2, valSpeed);
+
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+}
+else if (command == 'H') {
+  // Adelante derecha: motor derecho más lento
+  ledcWrite(pwm, valSpeed);
+  ledcWrite(pwm2, valSpeed / 4);
+
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+}
+else if (command == 'I') {
+  // Atrás izquierda
+  ledcWrite(pwm, valSpeed / 4);
+  ledcWrite(pwm2, valSpeed);
+
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+}
+else if (command == 'J') {
+  // Atrás derecha
+  ledcWrite(pwm, valSpeed);
+  ledcWrite(pwm2, valSpeed / 4);
+
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+}
+else if (command == 'S') {
+  parar();
+}
+else if (command == '1') {
+  SetSpeed(65);
+}
+else if (command == '2') {
+  SetSpeed(130);
+}
+else if (command == '3') {
+  SetSpeed(195);
+}
+else if (command == '4') {
+  SetSpeed(255);
+}
+</code></pre></div>
+<p>}
+}</p>
+<p>Este codigo fue para el ESP32 gestiona el control inalámbrico por Bluetooth de un carrito robot de dos motores DC mediante modulación por ancho de pulso (PWM).</p>
+<p>Funcionamiento: Configura el microcontrolador como un dispositivo Bluetooth esclavo (IronCar) que escucha comandos de caracteres enviados desde una aplicación móvil. Dependiendo de la letra o número recibido, ejecuta rutinas de movimiento (avanzar, retroceder, giros en su propio eje o diagonales) y ajusta de manera dinámica la velocidad de los motores.</p>
+<p>Por qué fue útil: Resultó fundamental para establecer la comunicación inalámbrica en tiempo real y lograr un control preciso de la velocidad y dirección del vehículo, permitiendo un manejo fluido y estable del carrito.</p>
+<p>Demostracion del carro </p>
+<p><a href="https://youtu.be/C-xD1128h-s?si=YFH2PDUeRXjqNBR">Ver demostración en video del carro</a></p>
+<p><img alt="Proyecto" src="../../recursos/imgs/Resultado.jpeg" /></p>
+<p>Este fue el resultado final, el chasis fue hecho a tiempo y el carrito si destaco en el torneo</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
